@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WEED SHOP FARM</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Order Online Or Call Us: (001) 2222-55555</p>
+        <ul class="d-flex">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>ABOUT US</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="termsconditions.html" class="nav-link">Terms & Conditions</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="./images/weedshop.png" id="zoom" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <strong><span>WEED SHOP</span></strong>
+          <h1>ABOUT US</h1>
+          
+          
+          <h3>About Weed Shop Farm</h3>
+<br>
+<h4>**EXCEPTIONAL QUALITY PRODUCTS:**</h4>
+<br>
+At Weed Shop Farm, we pride ourselves on delivering only the highest quality cannabis products to our customers. From premium strains to carefully curated edibles and concentrates, we ensure that every product meets our rigorous standards.
+<br>
+<br>
+<h4>**RELIABLE AND DISCREET DELIVERY:**</h4><br>
+Our commitment to customer satisfaction extends to our delivery service. With a focus on reliability and discretion, we guarantee timely and secure delivery of all orders, ensuring a hassle-free experience for our valued customers.
+<br>
+<br>
+<h4>**EXCEPTIONAL CUSTOMER SERVICE:**</h4><br></vr>
+We prioritize customer service above all else, striving to exceed expectations with every interaction. Our knowledgeable and friendly staff are always available to assist customers, providing expert guidance and support to ensure a positive experience with Weed Shop Farm.
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Weed Shop Mini Gallery</h1>
+        
+      </div>
+      <br>
+      
+    <img src="./images/gallery-1.jpg" alt="" />
+    
+    <img src="./images/gallery-2.jpg" alt="" />
+    
+    <img src="./images/gallery-3.jpg" alt="" />
+    
+    <img src="./images/gallery-4.jpg" alt="" />
+    
+  
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
